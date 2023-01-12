@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies: {  }
+id: custom_paragraph
+label: 'Custom Paragraph'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

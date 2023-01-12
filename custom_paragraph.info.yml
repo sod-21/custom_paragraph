@@ -1,0 +1,8 @@
+name: 'Custom Paragraph'
+type: module
+core_version_requirement: '^8.9 || ^9'
+dependencies:
+  - field
+  - link
+  - paragraphs
+  - text

@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_call_to_action
+    - paragraphs.paragraphs_type.custom_paragraph
+  module:
+    - link
+id: paragraph.custom_paragraph.field_paragraph_call_to_action
+field_name: field_paragraph_call_to_action
+entity_type: paragraph
+bundle: custom_paragraph
+label: 'Call to action'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

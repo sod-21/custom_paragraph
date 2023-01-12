@@ -1,0 +1,43 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.custom_paragraph.field_body
+    - field.field.paragraph.custom_paragraph.field_paragraph_call_to_action
+    - field.field.paragraph.custom_paragraph.field_paragraph_title
+    - paragraphs.paragraphs_type.custom_paragraph
+  module:
+    - link
+    - text
+id: paragraph.custom_paragraph.default
+targetEntityType: paragraph
+bundle: custom_paragraph
+mode: default
+content:
+  field_body:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_paragraph_call_to_action:
+    weight: 2
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_paragraph_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true
